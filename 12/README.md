@@ -20,3 +20,11 @@ Let us list the factors of the first seven triangle numbers:
 We can see that 28 is the first triangle number to have over five divisors.
 
 What is the value of the first triangle number to have over five hundred divisors?
+
+## Benchmarks
+
+| Lang    | Compilation            | Runtime  | Deviation |
+| ------- | ---------------------- | -------- | --------- |
+| C       | gcc -O3                | 255.2ms  | 7.2ms     |
+| Rust    | rustc -O               | 294.8ms  | 10.9ms    |
+| Crystal | crystal build --release| 257.0ms  | 5.9ms     |
