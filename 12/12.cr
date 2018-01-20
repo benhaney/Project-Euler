@@ -2,7 +2,7 @@ def divisors(x)
   divs = 0
   y = Math.sqrt(x).to_i32
   (1..y).each do |i|
-    divs += (x % i) > 0 ? 0 : 2
+    divs += 2 if (x % i) == 0
   end
   return divs + 1;
 end

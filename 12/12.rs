@@ -2,7 +2,7 @@ fn divisors(x: i32) -> i32 {
   let mut divs = 0;
   let y = (x as f32).sqrt() as i32;
   for i in 1..y {
-    divs += if x % i == 0 { 2 } else { 0 };
+    if x % i == 0 { divs += 2 }
   }
   return divs + 1;
 }

@@ -5,7 +5,7 @@ int divisors(int x) {
   int divs = 0;
   int y = sqrt(x);
   for (int i = 1; i <= y; i++) {
-    divs += (x % i) ? 0 : 2;
+    if (!(x % i)) { divs += 2; }
   }
   return divs + 1;
 }
