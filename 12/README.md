@@ -23,9 +23,11 @@ What is the value of the first triangle number to have over five hundred divisor
 
 ## Benchmarks
 
-| Lang       | Compilation             | Runtime  | Deviation |
-| -------    | ----------------------  | -------- | --------- |
-| C          | gcc -O3                 | 256.3ms  | 8.1ms     |
-| Rust       | rustc -O                | 291.8ms  | 11.0ms    |
-| Crystal    | crystal build --release | 258.4ms  | 4.9ms     |
-| Javascript | node                    | 467.5ms  | 6.1ms     |
+| Language   | Compilation             | Runtime  | Deviation |
+| ---------- | ----------------------- | -------- | --------- |
+| C          | gcc -O3                 | 252.8ms  | 4.5ms     |
+| Rust       | rustc -O                | 295.0ms  | 5.9ms     |
+| Crystal    | crystal build --release | 257.4ms  | 3.7ms     |
+| Javascript | node                    | 477.5ms  | 19ms      |
+| Python     | pypy                    | 1.935s   | 23ms      |
+| Python     | python3                 | 12.332s  | 264ms     |
