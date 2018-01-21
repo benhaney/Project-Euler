@@ -30,6 +30,7 @@ What is the value of the first triangle number to have over five hundred divisor
 | D          | dmd -O                  | 259.8ms  | 15ms      |
 | Rust       | rustc -O                | 295.0ms  | 5.9ms     |
 | Javascript | node                    | 477.5ms  | 19ms      |
+| Swift      | swiftc -O               | 810.6ms  | 8.5ms     |
 | Go         | go build                | 953.8ms  | 14ms      |
 | Python     | pypy                    | 1.935s   | 23ms      |
 | PHP        | php                     | 3.588s   | 582ms     |
