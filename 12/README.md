@@ -30,4 +30,5 @@ What is the value of the first triangle number to have over five hundred divisor
 | Crystal    | crystal build --release | 257.4ms  | 3.7ms     |
 | Javascript | node                    | 477.5ms  | 19ms      |
 | Python     | pypy                    | 1.935s   | 23ms      |
+| PHP        | php                     | 3.588s   | 582ms     |
 | Python     | python3                 | 12.332s  | 264ms     |
