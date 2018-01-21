@@ -23,16 +23,16 @@ What is the value of the first triangle number to have over five hundred divisor
 
 ## Benchmarks
 
-| Language   | Compiler / Interpreter  | Runtime  | Deviation |
-| ---------- | ----------------------- | -------- | --------- |
-| C          | gcc -O3                 | 252.8ms  | 4.5ms     |
-| Crystal    | crystal build --release | 257.4ms  | 3.7ms     |
-| D          | dmd -O                  | 259.8ms  | 15ms      |
-| Rust       | rustc -O                | 295.0ms  | 5.9ms     |
-| Javascript | node                    | 477.5ms  | 19ms      |
-| Swift      | swiftc -O               | 810.6ms  | 8.5ms     |
-| Go         | go build                | 953.8ms  | 14ms      |
-| Python     | pypy                    | 1.935s   | 23ms      |
-| PHP        | php                     | 3.588s   | 582ms     |
-| Python     | python3                 | 12.332s  | 264ms     |
-| Ruby       | ruby                    | 17.332s  | 226ms     |
+| Language   | Command                 | Build time | Run time | Deviation |
+| ---------- | ----------------------- | -----------| -------- | --------- |
+| C          | gcc -O3                 | 136.3ms    | 252.8ms  | 4.5ms     |
+| Crystal    | crystal build --release | 1.175s     | 257.4ms  | 3.7ms     |
+| D          | dmd -O                  | 217.7ms    | 259.8ms  | 15ms      |
+| Rust       | rustc -O                | 608.6ms    | 295.0ms  | 5.9ms     |
+| Javascript | node                    | --         | 477.5ms  | 19ms      |
+| Swift      | swiftc -O               | 722.8ms    | 810.6ms  | 8.5ms     |
+| Go         | go build                | 754.3ms    | 953.8ms  | 14ms      |
+| Python     | pypy                    | --         | 1.935s   | 23ms      |
+| PHP        | php                     | --         | 3.588s   | 582ms     |
+| Python     | python3                 | --         | 12.332s  | 264ms     |
+| Ruby       | ruby                    | --         | 17.332s  | 226ms     |
