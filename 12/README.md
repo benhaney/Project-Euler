@@ -31,6 +31,7 @@ What is the value of the first triangle number to have over five hundred divisor
 | Rust       | rustc -O                | 608.6ms    | 295.0ms  | 5.9ms     |
 | Javascript | node                    | --         | 477.5ms  | 19ms      |
 | Swift      | swiftc -O               | 722.8ms    | 810.6ms  | 8.5ms     |
+| Nim        | nim -d:release c        | 2.012s     | 834.9ms  | 15ms      |
 | Go         | go build                | 754.3ms    | 953.8ms  | 14ms      |
 | Python     | pypy                    | --         | 1.935s   | 23ms      |
 | PHP        | php                     | --         | 3.588s   | 582ms     |
