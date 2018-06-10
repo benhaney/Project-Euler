@@ -35,5 +35,6 @@ What is the value of the first triangle number to have over five hundred divisor
 | Go         | go build                | 754.3ms    | 953.8ms  | 14ms      |
 | Python     | pypy                    | --         | 1.935s   | 23ms      |
 | PHP        | php                     | --         | 3.588s   | 582ms     |
+| Elixir     | elixir                  | --         | 7.077s   | 176ms     |
 | Python     | python3                 | --         | 12.332s  | 264ms     |
 | Ruby       | ruby                    | --         | 17.332s  | 226ms     |
